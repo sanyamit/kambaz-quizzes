@@ -138,10 +138,10 @@ export default function AssignmentEditor() {
         <hr />
 
         <div className="d-flex justify-content-end gap-2">
-          <Link href={`/Kambaz/Courses/${cid}/Assignments`}>
+          <Link href={`/courses/${cid}/Assignments`}>
             <Button variant="secondary">Cancel</Button>
           </Link>
-          <Link href={`/Kambaz/Courses/${cid}/Assignments`}>
+          <Link href={`/courses/${cid}/Assignments`}>
             <Button variant="danger">Save</Button>
           </Link>
         </div>
