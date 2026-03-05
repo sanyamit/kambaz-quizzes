@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import * as db from "../database";
 import { RootState } from "../store";
 import { enroll, unenroll } from "../enrollmentsReducer";
 import {
@@ -20,7 +19,6 @@ import {
   addNewCourse,
   deleteCourse,
   updateCourse,
-  setCourses,
 } from "../courses/reducer";
 export default function Dashboard() {
   const { courses } = useSelector((state: RootState) => state.coursesReducer);
